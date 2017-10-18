@@ -75,6 +75,9 @@ module.exports = class EmbedCommand extends Command {
             if (info.state === 'War') {
                 name += ' :crossed_swords:';
             }
+            if (info.state === 'Civil War') {
+                name += ' :busts_in_silhouette::crossed_swords: '
+            }
             if (info.state === 'Election') {
                 name += ' :loudspeaker:';
             }
